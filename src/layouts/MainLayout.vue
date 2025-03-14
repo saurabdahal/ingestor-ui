@@ -31,11 +31,13 @@
           Essential Links
         </q-item-label>
 
-        <EssentialLink
-          v-for="link in linksList"
-          :key="link.title"
-          v-bind="link"
-        />
+<!--        <EssentialLink-->
+<!--          v-for="link in linksList"-->
+<!--          :key="link.title"-->
+<!--          v-bind="link"-->
+<!--        />-->
+
+        <Sidebar></Sidebar>
       </q-list>
     </q-drawer>
 
@@ -48,6 +50,7 @@
 <script setup>
 import { ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
+import Sidebar from "components/includes/Sidebar.vue";
 
 const linksList = [
   {
