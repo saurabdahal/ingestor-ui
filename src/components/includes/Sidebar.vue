@@ -9,7 +9,7 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { label: 'Topic', icon: 'home', route: '/link1' },
+  { label: 'Topic', icon: 'home', route: '/topic/list' },
   { label: 'Producer', icon: 'home', route: '/link1' },
   {
     label: 'Consumer',
